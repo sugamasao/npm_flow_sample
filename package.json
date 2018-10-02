@@ -7,7 +7,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "babel src/ -d lib/"
+    "build": "yarn run build:flow & yarn run build:src",
+    "build:flow": "flow gen-flow-files src/ --out-dir lib",
+    "build:src": "babel src/ -d lib/",
+    "flow": "flow",
+    "flow:check": "flow check"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
