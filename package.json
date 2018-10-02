@@ -1,0 +1,9 @@
+{
+  "name": "npm_flow_sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sugamasao/npm_flow_sample.git",
+  "author": "sugamasao <sugamasao@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
