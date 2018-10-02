@@ -6,6 +6,9 @@
   "author": "sugamasao <sugamasao@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "babel src/ -d lib/"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0"
