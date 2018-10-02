@@ -5,5 +5,9 @@
   "repository": "https://github.com/sugamasao/npm_flow_sample.git",
   "author": "sugamasao <sugamasao@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  }
 }
