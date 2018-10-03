@@ -2,7 +2,9 @@
   "name": "npm_flow_sample",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": "https://github.com/sugamasao/npm_flow_sample.git",
   "author": "sugamasao <sugamasao@gmail.com>",
   "license": "MIT",
@@ -15,8 +17,11 @@
     "flow:check": "flow check"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-flow": "^6.23.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
     "flow-bin": "^0.82.0"
-  }
+  },
+  "dependencies": {}
 }
